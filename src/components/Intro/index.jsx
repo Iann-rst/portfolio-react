@@ -5,12 +5,12 @@ import Img from '../../assets/Imagem-Home.png';
 
 export function Intro() {
   return (
-    <div className="intro">
+    <section className="intro" id="home">
       <div className="i-left">
         <div className="i-name">
           <span>Olá! Meu nome é </span>
           <span>Iann Rodrigues</span>
-          <span>Desenvolvedor Frontend em formação.</span>
+          <span>Desenvolvedor Frontend e Mobile.</span>
         </div>
 
         <button className="btn i-button">Hire me</button>
@@ -29,6 +29,6 @@ export function Intro() {
         <img src={Img} alt="" />
       </div>
 
-    </div>
+    </section>
   )
 }
