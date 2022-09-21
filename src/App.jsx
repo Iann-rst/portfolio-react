@@ -11,7 +11,7 @@ function App() {
       <main>
         <Intro />
         <About />
-
+        <Projects />
       </main>
     </div>
   )
