@@ -1,8 +1,12 @@
 .about {
   display: flex;
-  height: 77vh;
-  margin-top: 4rem;
+  height: 100vh;
+  margin-top: 6rem;
   gap: 20rem;
+}
+
+.a-left{
+  margin-top: 2rem;
 }
 
 .a-avatar img {
