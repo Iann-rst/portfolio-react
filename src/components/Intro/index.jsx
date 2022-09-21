@@ -1,12 +1,24 @@
-import './styles.css';
+import { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 import { GithubLogo, LinkedinLogo, } from 'phosphor-react';
 
+import './styles.css';
 import Img from '../../assets/Imagem-Home.png';
 
 export function Intro() {
+
+  useEffect(() => {
+    Aos.init({
+      duration: 2000
+    });
+  }, [])
+
+
   return (
     <section className="intro" id="home">
-      <div className="i-left">
+      <div data-aos="fade-right" className="i-left">
         <div className="i-name">
           <span>Olá! Meu nome é </span>
           <span>Iann Rodrigues</span>
@@ -25,7 +37,7 @@ export function Intro() {
         </div>
       </div>
 
-      <div className="i-right">
+      <div data-aos="fade-left" className="i-right">
         <img src={Img} alt="" />
       </div>
 

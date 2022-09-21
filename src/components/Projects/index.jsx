@@ -1,8 +1,21 @@
+import { useEffect } from 'react';
+
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 import './styles.css';
 
 export function Projects() {
+
+  //scroll reveal (Page animations on Scrolling)
+  useEffect(() => {
+    Aos.init({
+      duration: 3000
+    });
+  }, [])
+
   return (
-    <section className='projects' id="portfolio">
+    <section data-aos="fade" className='projects' id="portfolio">
       <div className='p-container'>
         <h1>
           Projetos
