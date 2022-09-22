@@ -5,7 +5,11 @@ import 'aos/dist/aos.css';
 
 import './styles.css';
 
+import Projetos from '../../utils/projetos';
+
 export function Projects() {
+
+
 
   //scroll reveal (Page animations on Scrolling)
   useEffect(() => {
@@ -21,41 +25,15 @@ export function Projects() {
       </h1>
 
       <div className="p-wrapper">
-        <div className="p-card">
-          <h1>Nome do Projeto</h1>
-          <p>detalhes</p>
-          <a href="#"><button className='btn'>GitHub</button></a>
-        </div>
 
         <div className="p-card">
-          <h1>Nome do Projeto 2</h1>
-          <p>detalhes</p>
-          <a href="#"><button className='btn'>GitHub</button></a>
+          <h1>{Projetos[5].title}</h1>
+          <p>{Projetos[5].description}</p>
+          <a href={`${Projetos[5].link}`} target="_blank">
+            <button className='btn'>GitHub</button>
+          </a>
         </div>
 
-        <div className="p-card">
-          <h1>Nome do Projeto 3</h1>
-          <p>detalhes</p>
-          <a href="#"><button className='btn'>GitHub</button></a>
-        </div>
-
-        <div className="p-card">
-          <h1>Nome do Projeto 4</h1>
-          <p>detalhes</p>
-          <a href="#"><button className='btn'>GitHub</button></a>
-        </div>
-
-        <div className="p-card">
-          <h1>Nome do Projeto 5</h1>
-          <p>detalhes</p>
-          <a href="#"><button className='btn'>GitHub</button></a>
-        </div>
-
-        <div className="p-card">
-          <h1>Nome do Projeto 6</h1>
-          <p>detalhes</p>
-          <a href="#"><button className='btn'>GitHub</button></a>
-        </div>
       </div>
     </section>
   )
