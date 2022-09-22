@@ -26,7 +26,6 @@ export function NavBar() {
               <a href="#contact"> Contato </a></li>
           </ul>
         </nav>
-        <button className="btn n-btn">Contato</button>
       </div>
 
     </header>
