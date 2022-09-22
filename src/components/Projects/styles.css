@@ -1,31 +1,34 @@
 .p-container {
-  height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 10rem;
 }
 
 .p-container>:nth-child(1) {
   font-size: 3rem;
   color: var(--orange);
   font-weight: bold;
-  margin-bottom: 5rem;
+  margin-bottom: 2.4rem;
 }
 
 .p-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-rows: 1fr;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .p-card {
-  width: 350px;
-  height: 300px;
+  width: 18.75rem;
+  height: 17.5rem;
   padding: 30px 26px;
   background: #EBEBEB;
   border-radius: 10px;
   position: relative;
+
+  box-shadow: 6px 5px 10px #EBEBEB;
+  text-align: center;
 }
 
 .p-card>:nth-child(1) {
@@ -36,11 +39,14 @@
 
 .p-card>:nth-child(2) {
   font-size: 14px;
-  text-align: justify;
 }
 
-.p-card>:nth-child(3) {
-  display: inline-block;
+.p-card>:nth-child(3) button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
   position: absolute;
   bottom: 20px;
+  font-weight: bold;
 }
