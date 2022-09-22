@@ -30,6 +30,7 @@
 }
 
 .social-btn {
+  height: 56px;
   margin-top: 2rem;
   display: flex;
   gap: 4rem;
