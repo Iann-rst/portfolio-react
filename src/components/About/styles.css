@@ -14,8 +14,8 @@
 .a-right {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  padding: 0 4rem;
+  gap: 1.2rem;
+  padding: 0 2rem;
 }
 
 .a-right>:nth-child(1) {
@@ -30,7 +30,6 @@
 }
 
 .social-btn {
-  height: 56px;
   margin-top: 2rem;
   display: flex;
   gap: 4rem;
