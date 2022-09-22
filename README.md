@@ -22,3 +22,10 @@
 - Criação ddo divisor de seção;
 
 - Criação do footer;
+
+## Dia 4 - 23/09/2022
+- Adicionar Responsividade;
+
+- Fazer Texto da seção About;
+
+- Fazer o toggle Dark/Light;
