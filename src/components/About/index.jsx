@@ -44,7 +44,7 @@ export function About() {
             Github
           </a>
 
-          <a href="/public/Curriculo.pdf" className="btn a-button" download>
+          <a href="/dist/Curriculo.pdf" className="btn a-button" download>
             <Link size={24} weight="bold" />
             Currículo
           </a>
