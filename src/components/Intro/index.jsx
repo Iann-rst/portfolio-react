@@ -25,13 +25,11 @@ export function Intro() {
           <span>Desenvolvedor Frontend e Mobile.</span>
         </div>
 
-        <button className="btn i-button">Hire me</button>
-
         <div className="i-icons">
-          <a href="" title='GitHub'>
+          <a href="https://github.com/Iann-rst" title='GitHub' target="_blank">
             <GithubLogo size={40} weight="bold" />
           </a>
-          <a href="" title="LinkedIn">
+          <a href="https://www.linkedin.com/in/iann-rodrigues-b71b9220a/" title="LinkedIn">
             <LinkedinLogo size={40} weight="bold" />
           </a>
         </div>
