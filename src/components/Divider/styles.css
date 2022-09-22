@@ -1,0 +1,11 @@
+.divider-1 {
+  height: 2px;
+  margin: 3rem 0;
+  background: linear-gradient(to right, #fdc50f 26.71%, #fb982f 99.36%)
+}
+
+.divider-2{
+  height: 2px;
+  margin: 3rem 0;
+  background: linear-gradient(to left, #fdc50f 26.71%, #fb982f 99.36%) 
+}
