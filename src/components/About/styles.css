@@ -1,12 +1,9 @@
 .about {
   display: flex;
   height: 100vh;
+  gap: 10rem;
   margin-top: 6rem;
-  gap: 20rem;
-}
-
-.a-left{
-  margin-top: 2rem;
+  padding: 2rem 0 0 0;
 }
 
 .a-avatar img {
@@ -18,7 +15,8 @@
 .a-right {
   display: flex;
   flex-direction: column;
-  gap: 0rem;
+  gap: 2rem;
+  padding: 0 4rem;
 }
 
 .a-right>:nth-child(1) {
@@ -29,6 +27,7 @@
 
 .a-right>:nth-child(2) {
   font-size: 1.125rem;
+  text-align: justify;
 }
 
 .social-btn {

@@ -30,18 +30,14 @@ export function About() {
         </p>
 
         <div className='social-btn'>
-          <a href="https://www.github.com/Iann-rst" target="_blank">
-            <button className='btn a-button'>
-              <GithubLogo size={24} weight="bold" />
-              Github
-            </button>
+          <a className='btn a-button' href="https://www.github.com/Iann-rst" target="_blank">
+            <GithubLogo size={24} weight="bold" />
+            Github
           </a>
 
-          <a href="https://www.linkedin.com/in/iann-rodrigues-b71b9220a/" target="_blank">
-            <button className='btn a-button'>
-              <Link size={24} weight="bold" />
-              Currículo
-            </button>
+          <a href="/src/components/About/Curriculo.pdf" className="btn a-button" download>
+            <Link size={24} weight="bold" />
+            Currículo
           </a>
         </div>
       </div>
