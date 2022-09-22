@@ -15,7 +15,7 @@ export function Projects() {
   }, [])
 
   return (
-    <section data-aos="fade" className='p-container' id="portfolio">
+    <section data-aos="fade" className='p-container container' id="portfolio">
       <h1>
         Projetos
       </h1>

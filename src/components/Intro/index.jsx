@@ -17,7 +17,7 @@ export function Intro() {
 
 
   return (
-    <section className="intro" id="home">
+    <section className="container intro" id="home">
       <div data-aos="fade-right" className="i-left">
         <div className="i-name">
           <span>Olá! Meu nome é </span>

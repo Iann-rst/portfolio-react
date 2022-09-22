@@ -2,7 +2,7 @@ import './styles.css';
 
 export function NavBar() {
   return (
-    <header className="n-wrapper">
+    <header className="container n-wrapper">
       <div className="n-left">
         <div className="n-name">Iann</div>
         <span>toggle</span>

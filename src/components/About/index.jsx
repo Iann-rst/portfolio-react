@@ -14,7 +14,7 @@ export function About() {
   }, [])
 
   return (
-    <section className="about" id="about">
+    <section className="container about" id="about">
       <div data-aos="fade-right" className="a-left">
         <div className="a-avatar">
           <img src="https://github.com/Iann-rst.png" alt="" />
@@ -23,12 +23,21 @@ export function About() {
 
       <div data-aos="fade-left" className="a-right">
         <h1>Sobre Mim</h1>
-        <p>
+        <p className="text">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit.
           Eveniet facilis minima expedita, vero eaque iusto placeat officia necessitatibus error nostrum dignissimos accusamus maiores provident!
           Autem, eveniet. Doloribus autem amet nesciunt.
         </p>
-
+        <p className="text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          Eveniet facilis minima expedita, vero eaque iusto placeat officia necessitatibus error nostrum dignissimos accusamus maiores provident!
+          Autem, eveniet. Doloribus autem amet nesciunt.
+        </p>
+        <p className="text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          Eveniet facilis minima expedita, vero eaque iusto placeat officia necessitatibus error nostrum dignissimos accusamus maiores provident!
+          Autem, eveniet. Doloribus autem amet nesciunt.
+        </p>
         <div className='social-btn'>
           <a className='btn a-button' href="https://www.github.com/Iann-rst" target="_blank">
             <GithubLogo size={24} weight="bold" />
