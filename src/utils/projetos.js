@@ -3,13 +3,13 @@ const Projetos = [
     id: 1,
     link: 'https://github.com/Iann-rst/nlw_eSports',
     title: 'NLW eSports',
-    description: 'Projeto desenvolvido durante a NLW, com foco no eSports e com o objetivo de ajudar gamers a encontrar Duos (parceiros) para jogarem juntos seus games favoritos.'
+    description: 'Projeto desenvolvido durante o evento NLW com o objetivo de ajudar gamers a encontrar Duos (parceiros) para jogarem juntos seus games favoritos.'
   },
   {
     id: 2,
     link: 'https://github.com/Iann-rst/gopizza',
     title: 'GoPizza',
-    description: 'GoPizza: Aplicativo desenvolvido em React Native para auxiliar Garçons de uma Pizzaria.'
+    description: 'GoPizza é uma aplicação desenvolvida em React Native para auxiliar Garçons de uma Pizzaria.'
   },
   {
     id: 3,
@@ -21,13 +21,13 @@ const Projetos = [
     id: 4,
     link: 'https://github.com/Iann-rst/Sistema-de-chamadas',
     title: 'Sistema de Chamados',
-    description: 'Criação de um sistema de chamadas em ReactJS e integração com o Firebase.'
+    description: 'Criação de um sistema de chamados em ReactJS e integração com o Firebase.'
   },
   {
     id: 5,
     link: 'https://github.com/Iann-rst/Letmeask',
     title: 'Letmeask: Crie salas de Q&A ao-vivo.',
-    description: `App desenvolvido durante a NLW Together na trilha de desenvolvimento Mission: ReactJS.`
+    description: `Aplicação desenvolvida durante a NLW Together na trilha de desenvolvimento Mission: ReactJS.`
   },
   {
     id: 6,
