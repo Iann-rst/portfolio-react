@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
-import { Link, GithubLogo } from 'phosphor-react'
+import { LinkedinLogo, GithubLogo } from 'phosphor-react'
 import './styles.css';
 
 export function About() {
@@ -44,9 +44,9 @@ export function About() {
             Github
           </a>
 
-          <a href="/dist/Curriculo.pdf" className="btn a-button" download>
-            <Link size={24} weight="bold" />
-            Currículo
+          <a href="https://www.linkedin.com/in/iann-rodrigues-b71b9220a/" className="btn a-button" target="_blank">
+            <LinkedinLogo size={24} weight="bold" />
+            LinkedIn
           </a>
         </div>
       </div>
