@@ -32,6 +32,8 @@ html {
 }
 
 .btn {
+  width: 160px;
+  height: 45px;
   border-radius: 18px;
   border: none;
   color: white;

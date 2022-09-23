@@ -4,7 +4,7 @@
   margin-top: 6rem;
   align-items: center;
 }
- 
+
 .i-left {
   display: flex;
   position: relative;
@@ -66,18 +66,43 @@
   margin-right: 6rem;
 }
 
-/*@media(max-width:923px) {
+/*Mobile*/
+@media(max-width:767px) {
   .intro {
     height: 100%;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    margin-top: 0;
-    gap: 2rem;
+    margin-top: -5rem;
+
+    gap: 0rem;
+    text-align: center;
+  }
+
+  .i-left {
+    margin-top: -2rem;
+  }
+
+  .i-name>:nth-child(1) {
+    font-size: 1.5rem;
+  }
+
+  .i-name>:nth-child(2) {
+    font-size: 2.25rem;
+  }
+
+  .i-name>:nth-child(3) {
+    font-size: 1.25rem;
+  }
+
+  .i-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .i-right img {
     transform: scale(0.7);
   }
-}*/
+}

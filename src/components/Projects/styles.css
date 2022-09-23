@@ -27,7 +27,7 @@
   border-radius: 10px;
   position: relative;
 
-  box-shadow: 6px 5px 10px #EBEBEB;
+  box-shadow: 6px 6px 10px #EBEBEB;
   text-align: center;
 }
 
@@ -49,4 +49,23 @@
   position: absolute;
   bottom: 20px;
   font-weight: bold;
+}
+
+/*Mobile*/
+
+@media(max-width:767px) {
+  .p-container>:nth-child(1) {
+    font-size: 2.25rem;
+  }
+
+  .p-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .p-card>:nth-child(3) button {
+    right: 70px;
+  }
 }
