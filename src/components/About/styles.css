@@ -69,8 +69,6 @@ a {
     border-radius: 50%;
   }
 
-
-
   .a-right>:nth-child(1) {
     font-size: 2.25rem;
   }
@@ -80,6 +78,7 @@ a {
     align-items: center;
     justify-content: space-around;
     margin-top: 4rem;
+    gap: 0;
   }
 
 
