@@ -1,8 +1,6 @@
 import { useEffect, useContext } from 'react';
 import { ThemeContext } from '../../context/Context';
 
-import Aos from 'aos';
-import 'aos/dist/aos.css';
 
 import './styles.css';
 
@@ -14,15 +12,8 @@ export function Projects() {
   const { theme } = useContext(ThemeContext);
 
 
-  //scroll reveal (Page animations on Scrolling)
-  useEffect(() => {
-    Aos.init({
-      duration: 2000
-    });
-  }, [])
-
   return (
-    <section data-aos="fade" className={theme ? `p-container container p-light` : `p-container container p-dark`} id="portfolio">
+    <section className={theme ? `p-container container p-light` : `p-container container p-dark`} id="portfolio">
       <h1>
         Projetos
       </h1>
