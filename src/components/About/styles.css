@@ -57,7 +57,7 @@ a {
 }
 
 /*Mobile, tablet*/
-@media (min-width: 480px) and (max-width: 1023px) {
+@media (min-width: 320px) and (max-width: 1023px) {
   .about {
     width: 100vw;
     display: flex;
