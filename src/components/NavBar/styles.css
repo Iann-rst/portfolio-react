@@ -18,6 +18,7 @@
 .n-left {
   align-items: center;
   display: flex;
+  flex: 1;
   gap: 2rem;
 }
 
@@ -61,4 +62,17 @@ a.dark {
 
 .n-btn {
   flex: 2;
+}
+
+@media (min-width: 320px) and (max-width: 1023px) {
+  .n-list {
+    display: none;
+  }
+
+  .n-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+  }
 }

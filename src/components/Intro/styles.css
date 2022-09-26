@@ -4,11 +4,11 @@
   align-items: center;
 }
 
-.i-dark{
+.i-dark {
   background: black;
 }
 
-.i-light{
+.i-light {
   background: white;
 }
 
@@ -73,8 +73,8 @@
   margin-right: 6rem;
 }
 
-/*Mobile*/
-@media(max-width:767px) {
+/*Mobile, tablet*/
+@media (min-width: 480px) and (max-width: 1023px) {
   .intro {
     display: flex;
     flex-direction: column-reverse;
@@ -109,5 +109,9 @@
 
   .i-right img {
     transform: scale(0.7);
+  }
+
+  .container{
+    padding: 0.5rem 2rem;
   }
 }

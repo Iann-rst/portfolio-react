@@ -5,13 +5,14 @@
   padding-top: 2rem;
 }
 
-.a-dark{
+.a-dark {
   background: black;
 }
 
-.a-light{
+.a-light {
   background: white;
 }
+
 .a-avatar img {
   width: 20rem;
   height: 20rem;
@@ -55,19 +56,19 @@ a {
   gap: 1rem;
 }
 
-/*Mobile*/
-@media (max-width: 767px) {
+/*Mobile, tablet*/
+@media (min-width: 480px) and (max-width: 1023px) {
   .about {
     width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 1rem;
+    gap: 0.2rem;
   }
 
   .container {
-    padding: 0;
+    padding: 0rem 1rem;
   }
 
   .a-avatar img {
@@ -81,11 +82,15 @@ a {
     font-size: 2.25rem;
   }
 
+  .a-right .text {
+    font-size: 1rem;
+    text-align: center;
+  }
+
   .social-btn {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 4rem;
     gap: 0;
   }
 
