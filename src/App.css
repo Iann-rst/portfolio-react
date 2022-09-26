@@ -14,7 +14,6 @@
 
 html {
   scroll-behavior: smooth;
-  color: var(--black);
 }
 
 * {
@@ -26,7 +25,6 @@ html {
 .container {
   padding: 0.5rem 5rem;
   overflow: hidden;
-  color: var(--black);
   font-family: 'Open Sans', sans-serif;
 }
 

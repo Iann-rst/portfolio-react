@@ -5,8 +5,17 @@
   height: 10vh;
 }
 
+.n-dark {
+  background: black;
+  color: white;
+}
+
+.n-light {
+  background: white;
+  color: var(--black);
+}
+
 .n-left {
-  flex: 1;
   align-items: center;
   display: flex;
   gap: 2rem;
@@ -24,9 +33,7 @@
   font-weight: 400;
 }
 
-.n-list {
-  flex: 10;
-}
+
 
 .n-list>ul {
   display: flex;
@@ -36,10 +43,18 @@
 
 a {
   font-weight: bold;
+}
+
+a.light {
   color: var(--black);
 }
 
-.n-list>ul>li>a:hover {
+a.dark {
+  color: white;
+}
+
+.n-list>ul>li>a.dark:hover,
+.n-list>ul>li>a.light:hover {
   cursor: pointer;
   color: var(--orange);
 }

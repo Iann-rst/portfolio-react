@@ -1,4 +1,5 @@
-import { useEffect } from 'react';
+import { ThemeContext } from '../../context/Context';
+import { useEffect, useContext } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -9,6 +10,8 @@ import Img from '../../assets/Imagem-Home.png';
 
 export function Intro() {
 
+  const { theme } = useContext(ThemeContext);
+
   useEffect(() => {
     Aos.init({
       duration: 2000
@@ -17,10 +20,10 @@ export function Intro() {
 
 
   return (
-    <section className="container intro" id="home">
+    <section className={theme ? `container intro i-light` : `container intro i-dark`} id="home">
       <div data-aos="fade-right" className="i-left">
         <div className="i-name">
-          <span>Olá! Meu nome é </span>
+          <span style={{ color: theme ? '' : 'white' }}>Olá! Meu nome é </span>
           <span>Iann Rodrigues</span>
           <span>Desenvolvedor Frontend e Mobile.</span>
         </div>

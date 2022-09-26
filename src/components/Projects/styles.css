@@ -3,9 +3,16 @@
   align-items: center;
   justify-items: center;
   flex-direction: column;
-  margin-bottom: 10rem;
 
   padding-bottom: 2rem;
+}
+
+.p-dark{
+  background: black;
+}
+
+.p.light{
+  background: white;
 }
 
 .p-container>:nth-child(1) {

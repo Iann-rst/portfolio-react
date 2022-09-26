@@ -6,19 +6,23 @@ import { Intro } from './components/Intro'
 import { NavBar } from './components/NavBar'
 import { Projects } from './components/Projects'
 
+import { ThemeProvider } from './context/Context';
+
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <main>
-        <Intro />
-        <Divider divider="divider-1" />
-        <About />
-        <Divider divider="divider-2" />
-        <Projects />
-      </main>
-      <Contact />
-    </div>
+    <ThemeProvider>
+      <div className="App">
+        <NavBar />
+        <main>
+          <Intro />
+          <Divider divider="divider-1" />
+          <About />
+          <Divider divider="divider-2" />
+          <Projects />
+        </main>
+        <Contact />
+      </div>
+    </ThemeProvider>
   )
 }
 

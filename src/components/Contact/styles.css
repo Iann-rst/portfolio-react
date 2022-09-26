@@ -1,9 +1,16 @@
+.dark{
+  background: black;
+}
+
+.light{
+  background: white;
+}
+
 .footer {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 100vw;
   height: 150px;
   background: var(--orange);
 }
