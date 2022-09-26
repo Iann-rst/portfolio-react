@@ -88,4 +88,10 @@ a {
     font-size: 1rem;
     text-align: center;
   }
+
+  .social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
