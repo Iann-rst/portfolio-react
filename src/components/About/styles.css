@@ -38,10 +38,10 @@
 }
 
 .social-btn {
-  margin-top: 2rem;
+  margin-top: 1rem;
   display: flex;
-  gap: 4rem;
   align-items: center;
+  justify-content: center;
 }
 
 a {
@@ -67,10 +67,6 @@ a {
     gap: 0.2rem;
   }
 
-  .container {
-    padding: 0rem 1rem;
-  }
-
   .a-avatar img {
     width: 140px;
     height: 140px;
@@ -86,13 +82,4 @@ a {
     font-size: 1rem;
     text-align: center;
   }
-
-  .social-btn {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 0;
-  }
-
-
 }

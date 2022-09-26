@@ -38,11 +38,6 @@ export function About() {
           Autem, eveniet. Doloribus autem amet nesciunt.
         </p>
         <div className='social-btn'>
-          <a className='btn a-button' href="https://www.github.com/Iann-rst" target="_blank">
-            <GithubLogo size={24} weight="bold" />
-            Github
-          </a>
-
           <a href="https://www.linkedin.com/in/iann-rodrigues-b71b9220a/" className="btn a-button" target="_blank">
             <LinkedinLogo size={24} weight="bold" />
             LinkedIn
