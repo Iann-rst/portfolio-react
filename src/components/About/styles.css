@@ -48,6 +48,12 @@ a {
   text-decoration: none;
 }
 
+.social-btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
 .a-button {
   display: flex;
   align-items: center;
