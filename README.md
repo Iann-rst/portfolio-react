@@ -26,6 +26,7 @@
 ## Dia 4 - 23/09/2022
 - Adicionar Responsividade;
 
-- Fazer Texto da seção About;
-
 - Fazer o toggle Dark/Light;
+
+## Dia 5 - 29/09/2022
+- Fazer Texto da seção About;
